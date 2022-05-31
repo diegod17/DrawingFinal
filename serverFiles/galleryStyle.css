@@ -1,0 +1,80 @@
+#image-wrapper
+{
+text-align: center;
+}
+#image-wrapper img
+{
+  display: inline-block;
+  vertical-align: middle;
+  width:30%; height:30%;
+  border:5px solid lightgrey;
+}
+#image-wrapper div
+{
+    vertical-align:center; 
+    display: inline-block; 
+    width:20%;
+}
+
+#image-wrapper caption
+{
+   text-align: center;
+    vertical-align:center;
+}
+#image-wrapper topRated
+{
+    font-size:35px; 
+    display: flex;
+    margin: 0 25px;
+}
+#image-wrapper .by
+{
+    font-size:35px; 
+    display: flex;
+    margin: 0 25px;
+
+}
+#members {
+
+  margin:1px ;
+  padding:1px;
+  border:1px solid lightgrey;
+  text-align:center;
+}
+
+#members figure {
+  display:inline-block;
+  margin: 15px;
+  max-width: 100%;
+  border:5px solid lightgrey;
+  
+}
+
+
+#members containElements {
+   display:flex;
+   justify-content: center;
+
+}
+
+
+#members divButtonleft {
+  display:flex;
+}
+
+
+#members img {
+
+  display:inline-block;
+  max-width: 100%;
+}
+
+#members span {
+    
+} 
+
+#members input[type="text"] {
+      box-sizing: border-box;
+    width: 200px;
+}
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src='/socket.io/socket.io.js'></script>
+    <title>Ajax</title>
+    <meta charset="utf-8"/>
+
+    <link rel="stylesheet" type="text/css" href="pageLayout.css"/>
+    <link rel="stylesheet" type="text/css" href="buttonStyle.css"/>
+    <link rel="stylesheet" type="text/css" href="galleryStyle.css"/>
+    <link rel="stylesheet" type="text/css" href="likeDislikeStyle.css"/>
+  
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  </head>
+  <body>
+
+    <!--<h1 class ="topbar" id = "session"  style = "color:white;font-size:100%" ></h1> -->
+
+
+      <!-- Header Section -->
+     <div class = "header">
+
+            <h2 style = "color:white;font-size:200%">
+                <p id="nameLabel"></p>
+            </h2>      
+    </div>
+
+    <!-- Menu Navigation Bar -->
+    <div class="menu">
+        <div class="buttons">
+        <a class="btn1" href="/">Canvas</a>
+        <a class="btn1" href="/gallery">Gallery</a>
+        <a class="btn1" href="/b">MultiCanvas</a>
+        <div class="menu-log">
+            <a id="usrsName" class="label" style = "color:blue" href="./userGallery"></a>
+            <a class="btn1" href="/login">LOGOUT</a>
+        </div>
+        </div>
+    </div>
+      
+
+    <!-- Body section -->
+    <div class = "body_sec">
+        <section id="Content">
+             <div id="image-wrapper">
+    </div>
+     <div id="members"></div>
+      <script src="userGallery.js"></script>
+        <br>
+        </section>
+    </div>
+
+
+     
+    <div id="cDiv"></div>
+    <footer class="FOOTER">
+        <!-- Map -->
+        <div class="footer-map"></div>  
+        <!-- Footer Links -->
+        <div class="footer-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 footer-info-item">
+                        <h3>Information</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="/about">About Us</a></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 footer-info-item">
+                        <h3>My Account</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="/userGallery">My Gallery</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>   
+                    </div>
+                    <div class="col-sm-4 footer-info-item">
+                        <h3><span class="glyphicon glyphicon-list-alt"></span> Newsletter</h3>
+                        <p>Sign up for exclusive offers.</p>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email address">
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary" type="button">
+                                    Subscribe!
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div>
+        
+        <!-- Copyright etc -->
+        <div class="small-print">
+            <div class="container2">
+                <p><a href="/terms">Terms &amp; Conditions</a> | <a href="/privacy">Privacy Policy</a> | <a href="#" onclick="window.open('mailto:373001623@vistausd.org');">Contact</a></p>
+                <p>Copyright &copy; Group3 2022 </p>
+            </div>
+        </div>
+        
+    </footer>
+   
+  </body>
+</html>
+
+
